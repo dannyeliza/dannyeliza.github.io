@@ -1,11 +1,188 @@
-body {
+body, html {
 
-	background-color: lightblue;
+	height: 100%;
 }
 
-h1, h2, p {
+/*The Hero Image*/
 
-	color: #555a87;
-	font-family: Arial;
-	align-content: center;
+.hero-image {
+
+background-image: url(https://static.pexels.com/photos/300122/pexels-photo-300122.jpeg);
+
+/*Set a specific height*/
+
+height: 90%;
+
+/*Position and center the image to scale nicely on all screens*/
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+
 }
+
+/*#tagline {
+
+	position: relative;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Avenir, sans-serif;
+	font-size: 34px;
+	font-weight: black;
+	padding-top: 100px
+	padding-left: 500px;
+}*/
+
+.button {
+
+	background-color: #FFFFFF;
+	border: solid;
+	border-color: #DA2F41;
+	border-width: 2px;
+	padding: 10px 28px;
+	text-align: center;
+	color: #DA2F41;
+	font-weight: 700;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Avenir;
+
+
+}
+
+.button:hover {
+
+	background-color: #DA2F41;
+	color: #FFF;
+
+}
+
+h1 {
+
+	color: #DA2F41;
+	font-family: Avenir, sans-serif;
+	font-size: 30px;
+	text-align: right;
+	padding-right: 50px;
+	margin-bottom: 10px;
+	margin-top: -35px;
+}
+
+
+ h2 {
+
+ 	color: #FFF;
+	font-family: Khmer MN, serif;
+	font-size: 36px;
+	text-align: right;
+	font-weight: 100;
+	padding-right: 120px;
+	padding-top: 200px;
+	line-height: 100%;
+
+}
+
+#section1 {
+
+	background-color: #FFF;
+	padding-right: 300px;
+	padding-left: 300px;
+
+}
+
+.infoheader {
+
+	color: #DA2F41;
+	font-family: Avenir, sans-serif;
+	font-weight: medium;
+	font-size: 36px;
+
+}
+
+p {
+
+	color: #000;
+	font-family: Avenir, sans-serif;
+	text-align: left;
+	width: 800px;
+
+}
+
+#Second {
+
+	text-align: left;
+	color: #000;
+	font-family: Avenir, sans-serif;
+}
+
+.button2 {
+	position: center;
+	padding-left: 500px;
+	background-color: #DA2F41;
+	color: #FFF;
+	padding: 10px 28px;
+	border: solid;
+	border-color: #FFF;
+	text-align: center;
+	font-weight: 700;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Avenir;
+
+}
+
+.button2:hover {
+	background-color: #FFFFFF;
+	color: #DA2F41;
+	border-color: #DA2F41;
+	border-width: 2px;
+	border: solid;
+	font-weight: 700;
+
+
+}
+
+footer {
+
+	margin-top: 100px;
+	padding-top: 100px;
+	background-color: #DA2F41;
+	height: 100px;
+}
+
+.centerbutton {
+
+	text-align: center;
+}
+
+.button3 {
+
+	background-color: #FFFFFF;
+	border: solid;
+	border-color: #DA2F41;
+	border-width: 2px;
+	padding: 10px 28px;
+	text-align: center;
+	color: #DA2F41;
+	font-weight: 700;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Avenir;
+	margin: auto;
+	display: block;
+	width: 150px;
+}
+
+.button3:hover {
+
+	background-color: #DA2F41;
+	color: #FFF;
+	border-color: #FFF;
+	margin: auto;
+	display: block;
+	width: 150px;
+}
+

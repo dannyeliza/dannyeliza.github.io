@@ -18,9 +18,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
-
 }
-
 /*#tagline {
 
 	position: relative;
@@ -32,9 +30,7 @@ position: relative;
 	padding-top: 100px
 	padding-left: 500px;
 }*/
-
 .button {
-
 	background-color: #FFFFFF;
 	border: solid;
 	border-color: #DA2F41;
@@ -45,72 +41,59 @@ position: relative;
 	font-weight: 700;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 1em;
 	font-family: Avenir;
-
-
 }
 
 .button:hover {
-
 	background-color: #DA2F41;
 	color: #FFF;
-
 }
 
 h1 {
-
 	color: #DA2F41;
 	font-family: Avenir, sans-serif;
-	font-size: 30px;
+	font-size: 2.5em;
 	text-align: right;
 	padding-right: 50px;
 	margin-bottom: 10px;
 	margin-top: -35px;
 }
 
-
  h2 {
-
  	color: #FFF;
 	font-family: Khmer MN, serif;
-	font-size: 36px;
+	font-size: 2em;
 	text-align: right;
 	font-weight: 100;
 	padding-right: 120px;
 	padding-top: 200px;
-	line-height: 100%;
-
+	line-height: 1em;
 }
 
 #section1 {
-
 	background-color: #FFF;
 	padding-right: 300px;
 	padding-left: 300px;
-
 }
 
 .infoheader {
-
 	color: #DA2F41;
 	font-family: Avenir, sans-serif;
 	font-weight: medium;
-	font-size: 36px;
-
+	font-size: 2em;
 }
 
 p {
-
 	color: #000;
 	font-family: Avenir, sans-serif;
 	text-align: left;
-	width: 800px;
-
+	width: 480px;
+	font-size: 1em;
+	line-height: 1.5em;
 }
 
 #Second {
-
 	text-align: left;
 	color: #000;
 	font-family: Avenir, sans-serif;
@@ -128,9 +111,10 @@ p {
 	font-weight: 700;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 1em;
 	font-family: Avenir;
-
+	width: 150px;
+	margin: 2em;
 }
 
 .button2:hover {
@@ -140,12 +124,9 @@ p {
 	border-width: 2px;
 	border: solid;
 	font-weight: 700;
-
-
 }
 
 footer {
-
 	margin-top: 100px;
 	padding-top: 100px;
 	background-color: #DA2F41;
@@ -153,12 +134,10 @@ footer {
 }
 
 .centerbutton {
-
 	text-align: center;
 }
 
 .button3 {
-
 	background-color: #FFFFFF;
 	border: solid;
 	border-color: #DA2F41;
@@ -169,7 +148,7 @@ footer {
 	font-weight: 700;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 1em;
 	font-family: Avenir;
 	margin: auto;
 	display: block;
@@ -177,7 +156,6 @@ footer {
 }
 
 .button3:hover {
-
 	background-color: #DA2F41;
 	color: #FFF;
 	border-color: #FFF;
